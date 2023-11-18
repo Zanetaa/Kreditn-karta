@@ -4,12 +4,12 @@ import './style.css';
 const CreditCard = () => {
   const [cardInputVisible, setCardIinputVisible] = useState(false);
 
-  const handleCredit = () => setCardIinputVisible(true);
-
   const cardInputRef = useRef();
   const cardSecondRef = useRef();
   const cardThirdRef = useRef();
   const cardFourthRef = useRef();
+
+  const handleCredit = () => setCardIinputVisible(true);
 
   const handleInput = (event) => {
     if (event.target.value.length == 4) {
