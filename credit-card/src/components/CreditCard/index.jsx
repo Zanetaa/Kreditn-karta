@@ -44,6 +44,7 @@ const CreditCard = () => {
       {cardInputVisible ? (
         <input
           key="1"
+          className="color-panel"
           type="text"
           minLength="4"
           maxLength="4"
@@ -54,6 +55,7 @@ const CreditCard = () => {
       {cardInputVisible ? (
         <input
           key="2"
+          className="color-panel"
           type="text"
           minLength="4"
           maxLength="4"
@@ -64,6 +66,7 @@ const CreditCard = () => {
       {cardInputVisible ? (
         <input
           key="3"
+          className="color-panel"
           type="text"
           minLength="4"
           maxLength="4"
@@ -74,6 +77,7 @@ const CreditCard = () => {
       {cardInputVisible ? (
         <input
           key="4"
+          className="color-panel"
           type="text"
           minLength="4"
           maxLength="4"

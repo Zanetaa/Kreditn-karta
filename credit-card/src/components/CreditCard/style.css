@@ -18,3 +18,12 @@ body {
   align-items: center;
   margin-top: 50px;
 }
+
+.color-panel {
+  max-width: 60px;
+  margin: 1rem auto;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  background-color: #ffffffdd;
+  border-radius: 4px;
+}
