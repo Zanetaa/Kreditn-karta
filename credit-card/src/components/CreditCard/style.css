@@ -1,0 +1,20 @@
+body {
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.kreditka {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 20px 40px 40px 40px;
+  background-color: #ffffffdd;
+  border-radius: 4px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
